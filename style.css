@@ -34,7 +34,24 @@ nav {
 }
 
 .hero-text-container {
-    background-color: red;
+    position: relative;
+    top: -525px;
+    left: 300px;
+    z-index: 10;
+    width: 800px;
+
+}
+
+.h1-hero {
+    font-size: 4em;
+    color: white;
+
+}
+
+.p-hero {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 30px;
 }
 
 .highlight {
@@ -76,32 +93,6 @@ nav {
     border: none;
 }
 
-.h1-hero {
-    position: absolute;
-    left: 300px;
-    padding-right: 900px;
-    color: white;
-    top: 15%;
-    font-size: 4rem;
-    text-align: left;
-    z-index: 2;
-    line-height: 60px;
-}
-
-.p-hero {
-    position: absolute;
-    left: 300px;
-    padding-right: 900px;
-    color: white;
-    top: 42%;
-    font-size: 2rem;
-    font-weight: 100;
-    text-align: left;
-    z-index: 2;
-    line-height: 60px;
-}
-
-
 .btn {
     display: flex !important;
     height: 45px;
@@ -109,6 +100,8 @@ nav {
     align-items: center;
     padding-left: 25px !important;
     padding-right: 25px !important;
+    font-weight: 800 !important;
+    color: black !important;
 }
 
 .btn.btn-primary {
@@ -117,14 +110,7 @@ nav {
     color: black;
 }
 
-.btn.btn-primary.hero {
-    position: absolute;
-    left: 300px;
-    top: 40%;
-    z-index: 2;
-    margin-top: 100px;
-}
 
 .btn:hover {
-    background-color: darkslategray !important;
+    background-color: black !important;
 }
