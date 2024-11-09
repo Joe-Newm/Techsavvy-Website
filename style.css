@@ -21,6 +21,16 @@ nav {
     width: 100vw !important;
 }
 
+h2 {
+    font-weight: bold !important;
+
+}
+
+i {
+    font-size: 5em;
+    color: #FFA904;
+}
+
 .nav-items {
     display: flex;
     gap: 25px;
@@ -105,7 +115,7 @@ nav {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 100px !important;
+    margin-top: 25px;
 }
 
 .btn.btn-secondary {
@@ -134,4 +144,9 @@ nav {
 .btn:hover {
     background-color: black !important;
     color: white !important;
+}
+
+.btn.btn-dark:hover {
+    background-color: white !important;
+    color: black !important;
 }
