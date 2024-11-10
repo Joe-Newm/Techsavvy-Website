@@ -49,13 +49,10 @@ nav a {
     transition: color 0.3s ease;
 }
 
-
 nav a:hover {
     color: #FFA904 !important;
     text-decoration: none !important;
 }
-
-
 
 .navbar-nav {
     margin-left: auto !important;
@@ -70,6 +67,7 @@ nav a:hover {
 .navbar-toggler:focus {
     border: none !important;
     outline: none !important;
+    text-decoration: none !important;
 }
 
 @media (max-width: 991.98px) {
@@ -227,6 +225,7 @@ nav a:hover {
     padding-right: 25px !important;
     font-weight: 800 !important;
     color: black !important;
+    justify-content: center;
 }
 
 .btn.btn-primary {
