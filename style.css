@@ -55,14 +55,12 @@ nav a:hover {
     text-decoration: none !important;
 }
 
-.nav-items {
-    display: flex;
+
+.navbar-nav {
+    margin-left: auto !important;
     gap: 25px;
 }
 
-.nav-items a {
-    padding-top: 10px;
-}
 
 #logo {
     width: 300px;
@@ -92,11 +90,11 @@ nav a:hover {
 
 
 .h1-hero {
-    font-size: 3em;
+    font-size: 3em !important;
     color: white;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .hero-text-container {
         padding-right: 45% !important;
     }
