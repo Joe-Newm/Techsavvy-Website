@@ -18,12 +18,12 @@
 
 <body>
   <nav class="container">
-    <img id="logo" src="./assets/logo/Group 1.png" alt="techsavvy logo">
+    <a href="./index.html"><img id="logo" src="./assets/logo/Group 1.png" alt="techsavvy logo"></a>
     <div class="nav-items">
-      <a>Services</a>
-      <a>About Us</a>
-      <a>Contact Us</a>
-      <a>Careers</a>
+      <a href="./services.html">Services</a>
+      <a href="./about.html">About Us</a>
+      <a href="./contact">Contact Us</a>
+      <a href="./careers">Careers</a>
       <button class="btn btn-primary hero" type="button">Call Us Today</button>
     </div>
   </nav>
@@ -58,7 +58,7 @@
           <h3 class="fw-bold">IT Services</h3>
           <p>At Tech Savvy, we are your IT department, just as if you had a team of IT professionals in-house. We make
             it work.</p>
-          <p><a class="btn btn-secondary" href="#">VIEW DETAILS</a></p>
+          <p><a class="btn btn-secondary" href="#">View Details</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4 marketing">
           <i class="bd-placeholder-img rounded-circle bi bi-fingerprint" role="img" focusable="false">
@@ -67,14 +67,14 @@
           <p>Our approach to cybersecurity services significantly increases our partners security and awareness, leading
             to a much stronger security posture and much lower risk.
           </p>
-          <p><a class="btn btn-secondary" href="#">VIEW DETAILS</a></p>
+          <p><a class="btn btn-secondary" href="#">View Details</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4 marketing">
           <i class="bd-placeholder-img rounded-circle bi bi-cloud-check" role="img" focusable="false">
           </i>
           <h3 class="fw-bold">Cloud & Backup</h3>
           <p>Store and share data easily through cloud services.</p>
-          <p><a class="btn btn-secondary" href="#">VIEW DETAILS</a></p>
+          <p><a class="btn btn-secondary" href="#">View Details</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4 marketing">
@@ -82,7 +82,7 @@
           </i>
           <h3 class="fw-bold">Hardware Repair / Installation</h3>
           <p>Use new hardware to meet your organization's goals.</p>
-          <p><a class="btn btn-secondary" href="#">VIEW DETAILS</a></p>
+          <p><a class="btn btn-secondary" href="#">View Details</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4 marketing">
@@ -90,7 +90,7 @@
           </i>
           <h3 class="fw-bold">Help Desk</h3>
           <p>Get local IT support whenever and wherever you need it.</p>
-          <p><a class="btn btn-secondary" href="#">VIEW DETAILS</a></p>
+          <p><a class="btn btn-secondary" href="#">View Details</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -98,7 +98,7 @@
         <div class="container">
           <div class="row content-container">
 
-            <div class="col-lg-8" style=" padding-top: 20; margin-bottom: 20px; /* 16:9 aspect ratio */">
+            <div class="col-lg-8" style=" padding-top: 20; margin-bottom: 20px;">
               <iframe src="https://player.vimeo.com/video/771776443?h=d027d28dd6" height="500" width="100%"
                 frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -119,11 +119,19 @@
 
       <div class="container">
         <div class="cta-container">
-          <h2 style="text-align: center">Send us an email today!</h2>
+          <h2 style="text-align: center">Contact us today<span style="color: #FFA904">!</span></h2>
+          <p style="text-align: center">To find out more about our full range of IT support services, call or message
+            us today!</p>
+          <div class="d-flex flex-column flex-lg-row" style="gap: 20px">
+            <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary btn-dark"
+              type="button" onclick="window.location.href='mailto:support@techsavvy.llc';"><i
+                class="bi bi-envelope-fill" style="color: black; font-size: 1.5em"></i>support@techsavvy.llc</button>
 
-          <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary btn-dark"
-            type="button" onclick="window.location.href='mailto:support@techsavvy.llc';"><i class="bi bi-envelope-fill"
-              style="color: black; font-size: 1.5em"></i>support@techsavvy.llc</button>
+            <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary btn-dark"
+              type="button" onclick="window.location.href='tel:+13188840844';">
+              <i class="bi bi-telephone-fill" style="color: black; font-size: 1.5em"></i>(318) 884-0844
+            </button>
+          </div>
         </div>
       </div>
 

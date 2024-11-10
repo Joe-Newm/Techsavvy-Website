@@ -21,6 +21,12 @@ nav {
     width: 100vw !important;
 }
 
+h1 {
+    font-weight: bold !important;
+    font-size: 4em !important;
+
+}
+
 h2 {
     font-weight: bold !important;
     font-size: 3em !important;
@@ -33,8 +39,20 @@ h3 {
 }
 
 i {
-    font-size: 4em;
+    font-size: 3em;
     color: #FFA904;
+}
+
+nav a {
+    color: inherit !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+
+nav a:hover {
+    color: #FFA904 !important;
+    text-decoration: none !important;
 }
 
 .nav-items {
@@ -59,10 +77,23 @@ i {
     margin-bottom: 100px;
 }
 
+.header-2 {
+    height: 400px;
+    background-color: #e3e3e3;
+    display: flex;
+    align-items: center;
+}
+
 .hero-text-container {
     position: relative;
     top: -525px;
     z-index: 10;
+}
+
+
+.h1-hero {
+    font-size: 3em;
+    color: white;
 }
 
 @media screen and (min-width: 800px) {
@@ -76,11 +107,6 @@ i {
 
 }
 
-.h1-hero {
-    font-size: 4em !important;
-    color: white;
-
-}
 
 .p-hero {
     font-size: 1.5em;
@@ -132,8 +158,9 @@ i {
     border-radius: 15px;
     background-color: rgb(33, 37, 41);
     color: white;
-    height: 200px;
+    height: auto;
     margin-bottom: 150px;
+    padding: 25px;
 }
 
 .content-container {
