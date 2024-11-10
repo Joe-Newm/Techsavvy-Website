@@ -25,13 +25,17 @@
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <div class="navbar-nav ml-auto"> <!-- Add ml-auto here to align items to the right -->
         <a class="nav-item nav-link" href="./services.html">Services</a>
         <a class="nav-item nav-link" href="./about.html">About Us</a>
         <a class="nav-item nav-link" href="./contact">Contact Us</a>
         <a class="nav-item nav-link" href="./careers">Careers</a>
-        <button class="btn btn-primary hero" type="button">Call Us Today</button>
+        <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary" type="button"
+          onclick="window.location.href='tel:+13188840844';">
+          <i class="bi bi-telephone-fill" style="font-size: 1.5em"></i>(318) 884-0844
+        </button>
       </div>
     </div>
   </nav>

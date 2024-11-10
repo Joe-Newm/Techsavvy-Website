@@ -93,6 +93,11 @@ nav a:hover {
         width: 200px !important;
         padding-left: 25px;
     }
+
+    iframe {
+        height: 25ch !important;
+    }
+
 }
 
 #logo {
@@ -165,6 +170,10 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     pointer-events: none;
     z-index: 1;
+}
+
+iframe {
+    height: 50ch;
 }
 
 .gray-container {
