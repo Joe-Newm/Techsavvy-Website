@@ -5,18 +5,25 @@ interface Props {
 	img: string;
 }
 
-const { href, title, body } = Astro.props;
+const { img, title, body } = Astro.props;
 ---
 
 <div class="container card bg-dark d-flex">
-<h1>{title}</h1>
+<h2>{title}</h2>
 <p>{body}</p>
-
 </div>
 
 <style>
     .card {
         height: 300px;
         width: auto;
+    }
+    h2 {
+        color: white;
+        text-decoration: underline;
+        border-bottom: 2px solid red;
+    }
+    p {
+        color: white;
     }
 </style>
